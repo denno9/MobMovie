@@ -1,0 +1,24 @@
+<ion-list >
+    <button ion-item   *ngFor='let movies of movieObj' round full (click)='moveToDetailsPage(movies.id,movies.title_long)'>
+       <ion-avatar item-start>
+         <img src="{{ movies.medium_cover_image }}" alt="Loading..." >
+       </ion-avatar>
+         <h2>{{movies.title_long }} </h2>
+         <p>{{ movies.summary }}</p>
+        
+         <div item-center>
+           <ion-grid>
+               <ion-row>
+                   <ion-col>
+                       Rating
+                       <ion-badge item-end>{{ movies.rating }}</ion-badge>
+                   </ion-col>
+                 </ion-row>
+                 
+           </ion-grid>
+         </div>
+        
+        
+    </button>
+  
+  </ion-list>

@@ -1,0 +1,81 @@
+<!--
+  Generated template for the GenrePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>genre</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list radio-group [(ngModel)]="genre" (ionChange)="changeGenre()" class="popover-page">
+    
+    <ion-item class="text-athelas">
+      <ion-label>Comedy</ion-label>
+      <ion-radio value="comedy"></ion-radio>
+    </ion-item>
+    <ion-item class="text-charter">
+      <ion-label>Sci-Fir</ion-label>
+      <ion-radio value="sci-fi"></ion-radio>
+    </ion-item>
+    <ion-item class="text-iowan">
+      <ion-label>Horror</ion-label>
+      <ion-radio value="horror"></ion-radio>
+    </ion-item>
+    <ion-item class="text-palatino">
+      <ion-label>Romance</ion-label>
+      <ion-radio value="romance"></ion-radio>
+    </ion-item>
+    <ion-item class="text-san-francisco">
+      <ion-label>Action</ion-label>
+      <ion-radio value="action"></ion-radio>
+    </ion-item>
+    <ion-item class="text-seravek">
+      <ion-label>Thriller</ion-label>
+      <ion-radio value="thriller"></ion-radio>
+    </ion-item>
+    <ion-item class="text-times-new-roman">
+      <ion-label>Drama</ion-label>
+      <ion-radio value="drama"></ion-radio>
+    </ion-item>
+    <ion-item class="text-san-francisco">
+        <ion-label>Mystery</ion-label>
+        <ion-radio value="mystery"></ion-radio>
+      </ion-item>
+      <ion-item class="text-seravek">
+        <ion-label>Crime</ion-label>
+        <ion-radio value="crime"></ion-radio>
+      </ion-item>
+      <ion-item class="text-times-new-roman">
+        <ion-label>Animation</ion-label>
+        <ion-radio value="animation"></ion-radio>
+      </ion-item>
+      <ion-item class="text-san-francisco">
+          <ion-label>Adventure</ion-label>
+          <ion-radio value="adventure"></ion-radio>
+        </ion-item>
+        <ion-item class="text-seravek">
+          <ion-label>Fantasyk</ion-label>
+          <ion-radio value="fantasy"></ion-radio>
+        </ion-item>
+        <ion-item class="text-times-new-roman">
+          <ion-label>Comedy-Romance</ion-label>
+          <ion-radio value="commedy-romance"></ion-radio>
+        </ion-item>
+        <ion-item class="text-san-francisco">
+            <ion-label>Action-Comedy</ion-label>
+            <ion-radio value="action-comedy"></ion-radio>
+          </ion-item>
+          <ion-item class="text-seravek">
+            <ion-label>Superhero</ion-label>
+            <ion-radio value="superhero"></ion-radio>
+          </ion-item>
+          
+  </ion-list>
+</ion-content>
